@@ -71,7 +71,7 @@ class ModelTrainer:
             train_arr = load_numpy_array_data(file_path=self.data_transformation_artifact.transformed_train_file_path)
             test_arr = load_numpy_array_data(file_path=self.data_transformation_artifact.transformed_test_file_path)
             
-            best_model_detail ,metric_artifact = self.get_model_object_and_report(train=train_arr, test=test_arr)
+            best_model_detail, metric_artifact = self.get_model_object_and_report(train=train_arr, test=test_arr)
             
             preprocessing_obj = load_object(file_path=self.data_transformation_artifact.transformed_object_file_path)
 

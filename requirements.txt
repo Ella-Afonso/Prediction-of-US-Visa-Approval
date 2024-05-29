@@ -1,11 +1,11 @@
 ipykernel
 pandas
-numpy
+numpy==1.26.0
 matplotlib
 plotly
 seaborn
 scipy
-scikit-learn
+scikit-learn==1.2.0
 imblearn
 xgboost
 catboost
